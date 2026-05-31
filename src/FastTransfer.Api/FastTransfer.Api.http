@@ -1,0 +1,21 @@
+@FastTransfer.Api_HostAddress = http://localhost:5011
+
+GET {{FastTransfer.Api_HostAddress}}/health
+Accept: application/json
+
+###
+
+POST {{FastTransfer.Api_HostAddress}}/api/transfers
+Content-Type: application/json
+
+{
+  "title": "Project files",
+  "expiresInDays": 7,
+  "files": [
+    {
+      "fileName": "archive.zip",
+      "contentType": "application/zip",
+      "sizeBytes": 1024
+    }
+  ]
+}

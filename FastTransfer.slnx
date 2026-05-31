@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FastTransfer.Api/FastTransfer.Api.csproj" />
+    <Project Path="src/FastTransfer.Application/FastTransfer.Application.csproj" />
+    <Project Path="src/FastTransfer.Domain/FastTransfer.Domain.csproj" />
+    <Project Path="src/FastTransfer.Infrastructure/FastTransfer.Infrastructure.csproj" />
+    <Project Path="src/FastTransfer.Worker/FastTransfer.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FastTransfer.Tests/FastTransfer.Tests.csproj" />
+  </Folder>
+</Solution>
